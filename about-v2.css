@@ -8,13 +8,16 @@
   width: 100vw;
   height: 100vh; }
   
- .viewport-header {
-    width: 100vw;
-    height: 100vh;
-    position: absolute;
-    text-align: center;
-    top: 0vh;
-    left: 0; }
+
+    .viewport-header {
+      width: 100vw;
+      height: 90vh;
+      display: flex; 
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+    }  
+    
 
   .video-header video {
     background: brown;
@@ -32,17 +35,6 @@ html, body {
   height: 100%;
   overflow-x:hidden ; }
 
-html {
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-  font-size: 150%;
-  line-height: 1.4; }
-
-body {
-  margin: 0;
-   }
-   header {
-    background-color: #F44336;
-   }
 
 h1 {
   color: white;
@@ -51,10 +43,7 @@ h1 {
   line-height: 1.2;
   font-size: 3vw;
   text-align: center; }
-  h1 span {
-    display: block;
-    font-size: 10vw;
-     }
+
 
 main {
   background: rgb(248, 248, 248);
