@@ -52,3 +52,25 @@ a {
     width: 50vw !important;
   }
 }
+
+@media only screen and (max-width : 600px) {
+  #logo-image {
+    position:relative;
+   height:6.5vh !important;
+   margin-right: 35%;
+  }
+
+  .get-in-touch {
+    max-width: 80vw;
+    padding: 10px 10px;
+  }
+  .get-in-touch .title {
+    letter-spacing: 1px;
+    font-size: 20px;
+    line-height: 28px;
+  
+  }
+  .viewport-header  h1 {
+    font-size: 55px !important;
+  }
+ }
